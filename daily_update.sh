@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/.bashrc
+source ~/.config/monitor/monitor.env
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate monitor
 

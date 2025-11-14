@@ -36,9 +36,11 @@ python simple_monitor.py login
 
 # Set the cron
 crontab -e
-0 12 * * * cd /path/to/folder && ./daily_update.sh
+0 12 * * * cd /path/to/folder && ./daily_update.sh >> /path/to/log 2>&1
 
 # Environment Variables (add these to your shell profile or export before running)
+mkdir -p ~/.config/monitor
+touch monitor.env
 export MAILTO="your-email@example.com"
 export MAIL_PASSWD="your-email-authorization-code"
 export DOUYIN_URL="https://www.douyin.com/user/YOUR_USER_ID"
