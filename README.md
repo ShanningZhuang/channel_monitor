@@ -46,3 +46,5 @@ export MAIL_PASSWD="your-email-authorization-code"
 export DOUYIN_URL="https://www.douyin.com/user/YOUR_USER_ID"
 export BILIBILI_URL="https://space.bilibili.com/YOUR_USER_ID"
 export XIAOHONGSHU_URL="https://www.xiaohongshu.com/user/profile/YOUR_USER_ID"
+export https_proxy=http://your.proxy
+export http_proxy=http://your.proxy
